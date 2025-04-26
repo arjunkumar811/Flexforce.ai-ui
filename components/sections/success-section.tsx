@@ -9,28 +9,28 @@ export default function SuccessSection({ data }) {
         "My son went from struggling in science to earning his best grades ever. His tutor made the material click in a way his classes never did.",
       author: "Kate Wills",
       role: "Parent | 8th Standard",
-      avatar: "/placeholder.svg",
+      avatar: "/photo2.png.png",
     },
     {
       quote:
         "My son went from struggling in science to earning his best grades ever. His tutor made the material click in a way his classes never did.",
       author: "Kate Wills",
       role: "Parent | 8th Standard",
-      avatar: "/placeholder.svg",
+      avatar: "/photo2.png.png",
     },
     {
       quote:
         "My son went from struggling in science to earning his best grades ever. His tutor made the material click in a way his classes never did.",
       author: "Kate Wills",
       role: "Parent | 8th Standard",
-      avatar: "/placeholder.svg",
+      avatar: "/photo2.png.png",
     },
     {
       quote:
         "My son went from struggling in science to earning his best grades ever. His tutor made the material click in a way his classes never did.",
       author: "Kate Wills",
       role: "Parent | 8th Standard",
-      avatar: "/placeholder.svg",
+      avatar: "/photo2.png.png",
     },
   ]
 

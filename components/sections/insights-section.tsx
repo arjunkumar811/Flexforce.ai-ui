@@ -11,7 +11,7 @@ export default function InsightsSection({ data }) {
       title: "Learning Styles in Tutoring: Tailoring Approaches for Effective Student Engagement",
       excerpt:
         "Understanding different learning styles is essential for effective tutoring and can significantly enhance your teaching approach.",
-      image: "/placeholder.svg",
+      image: "/photo10.png.png",
       category: "Guidance",
       readTime: "5 mins read",
       slug: "#",
@@ -20,7 +20,7 @@ export default function InsightsSection({ data }) {
       title: "Learning Styles in Tutoring: Tailoring Approaches for Effective Student Engagement",
       excerpt:
         "Understanding different learning styles is essential for effective tutoring and can significantly enhance your teaching approach.",
-      image: "/placeholder.svg",
+      image: "/photo10.png.png",
       category: "Guidance",
       readTime: "5 mins read",
       slug: "#",
@@ -29,7 +29,7 @@ export default function InsightsSection({ data }) {
       title: "Learning Styles in Tutoring: Tailoring Approaches for Effective Student Engagement",
       excerpt:
         "Understanding different learning styles is essential for effective tutoring and can significantly enhance your teaching approach.",
-      image: "/placeholder.svg",
+      image: "/photo10.png.png",
       category: "Guidance",
       readTime: "5 mins read",
       slug: "#",
@@ -38,7 +38,7 @@ export default function InsightsSection({ data }) {
       title: "Learning Styles in Tutoring: Tailoring Approaches for Effective Student Engagement",
       excerpt:
         "Understanding different learning styles is essential for effective tutoring and can significantly enhance your teaching approach.",
-      image: "/placeholder.svg",
+      image: "/photo10.png.png",
       category: "Guidance",
       readTime: "5 mins read",
       slug: "#",

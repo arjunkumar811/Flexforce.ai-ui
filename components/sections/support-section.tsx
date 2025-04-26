@@ -1,33 +1,35 @@
+import { ClipboardCheck, School, GraduationCap, Home, Landmark, BadgeCheck } from "lucide-react"
+
 export default function SupportSection({ data }) {
   // Default stages if none provided from CMS
   const defaultStages = [
     {
-      icon: "/icons/test-prep.svg",
+      icon: ClipboardCheck,
       title: "Test Prep",
       description: "Expert coaching for SSAT, SAT, ACT, AP exams, and more.",
     },
     {
-      icon: "/icons/college.svg",
+      icon: School,
       title: "College/University",
       description: "Tutoring for advanced coursework, writing, and academic strategy.",
     },
     {
-      icon: "/icons/graduate.svg",
+      icon: GraduationCap,
       title: "Graduate School",
       description: "Language prep, writing mentorship, and exam support for advanced learners.",
     },
     {
-      icon: "/icons/elementary.svg",
+      icon: Home,
       title: "Elementary School",
       description: "Foundational support in reading, writing, math, and study habits.",
     },
     {
-      icon: "/icons/middle.svg",
+      icon: Landmark,
       title: "Middle School",
       description: "Skill-building across core subjects to support academic transitions.",
     },
     {
-      icon: "/icons/high.svg",
+      icon: BadgeCheck,
       title: "High School",
       description: "Rigorous subject support, test prep, and college readiness.",
     },
@@ -48,11 +50,10 @@ export default function SupportSection({ data }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {stages.map((stage, index) => (
             <div key={index} className="bg-[#e8f5e9] border border-[#c8e6c9] rounded-lg p-6 flex">
-              <div className="mr-4 h-12 w-12 relative shrink-0">
-                {/* Placeholder for icon */}
-                <div className="absolute inset-0 bg-gray-100 rounded-full flex items-center justify-center">
-                  <p className="text-xs text-gray-500">Icon</p>
-                </div>
+              <div className="mr-4 h-12 w-12 relative shrink-0 flex items-center justify-center">
+                {stage.icon && (
+                  <stage.icon className="h-10 w-10 text-[#388e3c]" />
+                )}
               </div>
               <div>
                 <h3 className="text-lg font-bold text-[#004d40] mb-2">{stage.title}</h3>

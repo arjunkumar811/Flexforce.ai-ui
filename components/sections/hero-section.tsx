@@ -40,11 +40,12 @@ export default function HeroSection({ data }) {
         </div>
 
         <div className="relative h-[400px] w-full">
-          {/* This is a placeholder for the hero image that will be added later */}
-          <div className="absolute inset-0 bg-gray-100 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">Hero image will be added here</p>
-          </div>
-        </div>
+  <img src="/photo1.png.png" alt="Hero Image" className="h-full w-full object-cover rounded-lg" />
+  <div className="absolute inset-0 bg-gray-100 bg-opacity-50 rounded-lg flex items-center justify-center">
+    <p className="text-gray-500"></p>
+  </div>
+</div>
+
       </div>
     </section>
   )

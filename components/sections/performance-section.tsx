@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function PerformanceSection({ data }) {
   // Default CTAs if none provided from CMS
@@ -40,10 +41,15 @@ export default function PerformanceSection({ data }) {
             {[1, 2, 3].map((_, index) => (
               <div key={index} className="border rounded-lg overflow-hidden">
                 <div className="h-48 bg-gray-100 relative">
-                  {/* Placeholder for image that will be added later */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <p className="text-gray-500">Image will be added here</p>
-                  </div>
+                  {index === 0 && (
+                    <Image src="/photo5.png.png" alt="Performance 1" fill className="object-cover" />
+                  )}
+                  {index === 1 && (
+                    <Image src="/photo4.png.png" alt="Performance 2" fill className="object-cover" />
+                  )}
+                  {index === 2 && (
+                    <Image src="/photo3.png.png" alt="Performance 3" fill className="object-cover" />
+                  )}
                 </div>
                 <div className="p-4 flex justify-center">
                   <Button className="bg-[#004d40] hover:bg-[#00695c] w-full">

@@ -1,30 +1,31 @@
 import { Button } from "@/components/ui/button"
+import { SlidersHorizontal, Users2, Lightbulb, HandHeart, Star } from "lucide-react"
 
 export default function WhyMilestoneSection({ data }) {
   // Default features if none provided from CMS
   const defaultFeatures = [
     {
-      icon: "/icons/personalized.svg",
+      icon: SlidersHorizontal,
       title: "Personalized, efficient learning",
       description: "Tailored instruction that maximizes understanding and progress.",
     },
     {
-      icon: "/icons/collaboration.svg",
+      icon: Users2,
       title: "Collaboration with parents & students",
       description: "Clear communication and ongoing feedback to align on goals.",
     },
     {
-      icon: "/icons/skill.svg",
+      icon: Lightbulb,
       title: "Long-term skill development",
       description: "Focused on growth, mastery, and real results.",
     },
     {
-      icon: "/icons/nurturing.svg",
+      icon: HandHeart,
       title: "A nurturing, supportive environment",
       description: "Meeting students where they are and helping them thrive.",
     },
     {
-      icon: "/icons/confidence.svg",
+      icon: Star,
       title: "Confidence-building for success",
       description: "Strategies to reduce anxiety and improve academic performance.",
     },
@@ -40,11 +41,10 @@ export default function WhyMilestoneSection({ data }) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {features.slice(0, 3).map((feature, index) => (
             <div key={index} className="bg-white text-[#004d40] rounded-lg p-8 flex flex-col items-center text-center">
-              <div className="mb-4 h-16 w-16 relative">
-                {/* Placeholder for icon */}
-                <div className="absolute inset-0 bg-gray-100 rounded-full flex items-center justify-center">
-                  <p className="text-xs text-gray-500">Icon</p>
-                </div>
+              <div className="mb-4 h-16 w-16 relative flex items-center justify-center">
+                {feature.icon && (
+                  <feature.icon className="h-12 w-12 text-[#004d40]" />
+                )}
               </div>
               <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
               <p className="text-gray-700">{feature.description}</p>
@@ -55,11 +55,10 @@ export default function WhyMilestoneSection({ data }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {features.slice(3, 5).map((feature, index) => (
             <div key={index} className="bg-white text-[#004d40] rounded-lg p-8 flex flex-col items-center text-center">
-              <div className="mb-4 h-16 w-16 relative">
-                {/* Placeholder for icon */}
-                <div className="absolute inset-0 bg-gray-100 rounded-full flex items-center justify-center">
-                  <p className="text-xs text-gray-500">Icon</p>
-                </div>
+              <div className="mb-4 h-16 w-16 relative flex items-center justify-center">
+                {feature.icon && (
+                  <feature.icon className="h-12 w-12 text-[#004d40]" />
+                )}
               </div>
               <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
               <p className="text-gray-700">{feature.description}</p>
