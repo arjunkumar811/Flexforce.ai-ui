@@ -18,14 +18,14 @@ export async function getHomepage() {
       trustSection: {
         title: "Tutors you can trust from",
         logos: [
-          { name: "Columbia University", logo: "/placeholder.svg" },
-          { name: "University 2", logo: "/placeholder.svg" },
-          { name: "University 3", logo: "/placeholder.svg" },
-          { name: "Stony Brook University", logo: "/placeholder.svg" },
-          { name: "University 5", logo: "/placeholder.svg" },
-          { name: "University 6", logo: "/placeholder.svg" },
-          { name: "University 7", logo: "/placeholder.svg" },
-          { name: "University 8", logo: "/placeholder.svg" },
+          { name: "Columbia University", logo: "/photo6.png.png" },
+          { name: "University 2", logo: "/photo6.png.png" },
+          { name: "University 3", logo: "/photo6.png.png" },
+          { name: "Stony Brook University", logo: "/photo6.png.png" },
+          { name: "University 5", logo: "/photo6.png.png" },
+          { name: "University 6", logo: "/photo6.png.png" },
+          { name: "University 7", logo: "/photo6.png.png" },
+          { name: "University 8", logo: "/photo6.png.png" },
         ],
       },
       // Add other sections data here
